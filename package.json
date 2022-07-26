@@ -2,14 +2,21 @@
   "name": "bench",
   "version": "1.0.0",
   "description": "Test performance",
-  "main": "startWith.js",
+  "scripts": {
+    "start": "npm run loops && npm run startWith",
+    "loops": "node loops.js",
+    "startWith": "node startWith.js"
+  },
+  "author": {
+    "name": "Romick Nikol",
+    "email": "Romick2005@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Romick2005/bench.git"
+  },
   "dependencies": {
     "benchmark": "^2.1.4"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
   "license": "ISC"
 }
